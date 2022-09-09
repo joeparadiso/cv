@@ -1,0 +1,172 @@
+/*Color Scheme: https://colorhunt.co/palette/2a09443fa796fec260a10035*/
+
+/*=====================  TAG SELECTORS  ==================*/
+body{
+  margin: 0;
+  /*This centers everything in the body*/
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+h1{
+  font-size: 5.625rem;/*NOTE: 16px = 100% = 1em */
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #3FA796;
+  font-weight: bold;
+}
+h2{
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;/*40pt font size/16px=2.5rem*/
+  font-weight: normal;/*bold, normal, etc.*/
+  margin-top: 0;
+  padding-top: 10px;
+}
+h3{
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+/*=====================  CLASS SELECTORS  ==================*/
+.top-container{
+  background-color: #2A0944;
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 80px;
+}
+.top-cloud{
+  position: absolute;
+  top: 80px;
+  right: 200px;
+}
+.bottom-cloud{
+  position: absolute;
+  left: 150px;
+  bottom: 250px;
+}
+.profileImg{
+  width: 25%;
+  height: 25%;
+  border-radius: 150px;
+  margin-top: 50px;
+  background-color: #FEC260;
+}
+.subtitle{
+  font-size: 1.5rem;
+  font-weight: normal;
+}
+.middle-container{
+  background-color: #EAF6F6;
+}
+.paragraph_format{
+  margin-left: 150px;
+  margin-right: 150px;
+}
+.hr-style{
+  border-top: 10px dotted #F76B8A;
+  border-left: 0;
+  width: 75px;
+  margin: 95px auto 95px auto;
+}
+.info-row-formatting{
+  width: 50%;/*50% of the screen width*/
+  margin:70px auto 70px auto;/*auto margin on left and right centers image*/
+  text-align: left;/*align text to left instead of centered as determined above in body*/
+  line-height: 2;/*give more spaces between lines of paragraph*/
+}
+.CMU_Img{
+  width: 25%;
+  height: 25%;
+  float: left;/*Puts image on left of box and wraps text around it*/
+  margin-right: 30px;/*Puts 30 pixels between image and text*/
+}
+.GVSU_Img{
+  width: 25%;
+  height: 25%;
+  border-radius: 100px;
+  float: left;/*Puts image on left of box and wraps text around it*/
+  margin-right: 30px;/*Puts 30 pixels between image and text*/
+}
+.Corning_Img{
+  width: 25%;
+  height: 25%;
+  border-radius: 5px;
+  float: left;/*Puts image on left of box and wraps text around it*/
+  margin-right: 30px;/*Puts 30 pixels between image and text*/
+}
+.experience_Img{
+  width: 25%;
+  height: 25%;
+  border-radius: 50px;
+  float: right;/*Puts image on right of box and wraps text around it*/
+  margin-left: 30px;/*Puts 30 pixels between image and text*/
+  background-color: #2A0944;
+}
+.skillsImg{
+  width: 25%;
+  height: 25%;
+  border-radius: 50px;
+  float: left;/*Puts image on left of box and wraps text around it*/
+  margin-right: 30px;/*Puts 30 pixels between image and text*/
+  background-color: #2A0944;
+}
+.projectBtnContainer{
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 100px;
+}
+.projectBtn{
+  background: #e06985;
+  background-image: linear-gradient(to bottom, #e06985, #b261c2);
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #8c1f7c 2px;
+  text-decoration: none;
+}
+.projectBtn:hover{
+  background: #9f3cfc;
+  background-image: linear-gradient(to bottom, #9f3cfc, #cb34d9);
+  text-decoration: none;
+}
+.skillsImg2{
+  width: 25%;
+  height: 25%;
+  border-radius: 50px;
+  float: right;/*Puts image on right of box and wraps text around it*/
+  margin-left: 30px;/*Puts 30 pixels between image and text*/
+  background-color: #2A0944;
+}
+.contact-me{
+  font-size: 1rem;
+}
+.contactBtn{
+  background: #e06985;
+  background-image: linear-gradient(to bottom, #e06985, #b261c2);
+  border-radius: 28px;
+  font-family: Georgia;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  border: solid #8c1f7c 2px;
+  text-decoration: none;
+}
+.contactBtn:hover{
+  background: #9f3cfc;
+  background-image: linear-gradient(to bottom, #9f3cfc, #cb34d9);
+  text-decoration: none;
+}
+.linkedin_badge{
+  margin-left: auto;
+  margin-right: auto;
+  width: 20%;
+}
+.bottom-container{
+  font-size: 1rem;
+  background-color: #F76B8A;
+}
+.copyright{
+  color: white;
+}
