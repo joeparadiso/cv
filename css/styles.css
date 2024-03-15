@@ -46,7 +46,7 @@ h3{
 .profileImg{
   width: 25%;
   height: 25%;
-  border-radius: 150px;
+  border-radius: 50%;
   margin-top: 50px;
   background-color: #FEC260;
 }
